@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Revenue Lab by Dealwise — Imersão presencial de 3 dias em operação de receitas para CEOs e diretores de PMEs B2B.">
+  <title>Revenue Lab by Dealwise — Pré-Inscrição</title>
+
+  <!-- Preconnects -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://forms.rdstation.com.br">
+  <link rel="preconnect" href="https://lp.dealwise.com.br">
+
+  <!-- Preload imagens críticas do hero -->
+  <link rel="preload" as="image" href="https://lp.dealwise.com.br/wp-content/uploads/2026/04/heptagono.webp" fetchpriority="high">
+  <link rel="preload" as="image" href="https://lp.dealwise.com.br/wp-content/uploads/2026/04/baesso-e-gabriel.webp" fetchpriority="high">
+
+  <!-- Google Fonts — não-bloqueante (media trick) -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,700;9..40,800;9..40,900&family=DM+Mono:wght@400;500&display=swap" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,700;9..40,800;9..40,900&family=DM+Mono:wght@400;500&display=swap"></noscript>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════
+     HERO
+═══════════════════════════════════════ -->
+<section id="hero">
+  <canvas id="beams-canvas"></canvas>
+  <div class="grain"></div>
+
+  <nav class="hero-nav"></nav>
+
+  <img class="hero-hept-bg"
+       src="https://lp.dealwise.com.br/wp-content/uploads/2026/04/heptagono.webp"
+       alt="" aria-hidden="true"
+       width="1300" height="1097"
+       fetchpriority="high">
+
+  <div class="hero-founders-glow"></div>
+
+  <img class="hero-founders"
+       src="https://lp.dealwise.com.br/wp-content/uploads/2026/04/baesso-e-gabriel.webp"
+       alt="Vítor Baesso e Gabriel Machado — Co-CEOs Dealwise"
+       width="649" height="490"
+       fetchpriority="high">
+
+  <div class="hero-founders-fade"></div>
+
+  <div class="founder-label founder-label--left">
+    <span class="fname">Vítor</span>
+    <span class="lname">Baesso</span>
+  </div>
+  <div class="founder-label founder-label--right">
+    <span class="fname">Gabriel</span>
+    <span class="lname">Machado</span>
+  </div>
+
+  <div class="hero-content">
+    <img class="hero-content-logo hero-content-logo--desktop"
+         src="https://raw.githubusercontent.com/dealwise-marketing/email-mkt/refs/heads/main/Logotipo/Revenue%20Lab%20Export%20de%20vers%C3%B5es%20do%20logo%20e%20heptagono_Revenue%20Lab%20versao%20principal%20alinhada%20a%20esquerda%20para%20fundos%20escuros%20com%20assinatura%20by%20dealwise.svg"
+         alt="Revenue Lab by Dealwise"
+         width="320" height="70"
+         loading="eager"
+         onerror="this.style.display='none'">
+    <img class="hero-content-logo hero-content-logo--mobile"
+         src="https://raw.githubusercontent.com/dealwise-marketing/email-mkt/refs/heads/main/Logotipo/Revenue%20Lab%20Export%20de%20vers%C3%B5es%20do%20logo%20e%20heptagono_Revenue%20Lab%20versao%20centralizada%20para%20fundos%20escuros%20com%20assinatura%20by%20dealwise.svg"
+         alt="Revenue Lab by Dealwise"
+         width="280" height="70"
+         loading="eager"
+         onerror="this.style.display='none'">
+
+    <h1 class="hero-headline">
+      <span class="hero-headline--upper">Você já sabe que seu gargalo é comercial.</span>
+      O que falta é uma operação de receitas que rode sem você.
+    </h1>
+
+    <p class="hero-sub">
+      Em 3 dias, você constrói o sistema de operação de receitas da sua empresa, com a mesma metodologia que nos levou do zero às dezenas de milhões faturados. Não é conteúdo para estudar depois. É operação para implementar na semana seguinte.
+    </p>
+
+    <div class="hero-cta-wrap">
+      <a class="btn" href="#form"><span>Garantir meu lugar na lista</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     NÚMEROS
+═══════════════════════════════════════ -->
+<section id="numbers">
+  <div class="numbers-bg-line"></div>
+  <div class="container">
+    <div class="numbers-header">
+      <h2 class="numbers-title">O que muda quando uma empresa <em>estrutura</em> sua operação de receitas</h2>
+      <span class="numbers-tag">Resultados reais — clientes Dealwise</span>
+    </div>
+    <div class="numbers-grid">
+      <div class="number-card">
+        <span class="number-index">01</span>
+        <span class="number-big">+160%</span>
+        <span class="number-desc">de crescimento médio em 12 meses</span>
+      </div>
+      <div class="number-card">
+        <span class="number-index">02</span>
+        <span class="number-big">3×</span>
+        <span class="number-desc">mais oportunidades qualificadas geradas por mês</span>
+      </div>
+      <div class="number-card">
+        <span class="number-index">03</span>
+        <span class="number-big">62%</span>
+        <span class="number-desc">do faturamento vindo de vendas ativas, sem depender de indicação</span>
+      </div>
+      <div class="number-card">
+        <span class="number-index">04</span>
+        <span class="number-big">5 meses</span>
+        <span class="number-desc">para atingir ou extrapolar a meta anual inteira</span>
+      </div>
+      <div class="number-card">
+        <span class="number-index">05</span>
+        <span class="number-big">R$ 5M</span>
+        <span class="number-desc">em nova receita gerada em projetos de apenas 5 meses</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     CONTEXTO
+═══════════════════════════════════════ -->
+<section id="context">
+  <canvas id="context-beams"></canvas>
+  <div class="context-glow"></div>
+  <div class="container">
+    <div class="context-main">
+      <span class="label">Por que existe</span>
+      <h2>A maioria das PMEs B2B<br>cresce <em>por acidente.</em></h2>
+      <p>
+        Indicação aqui, vendedor bom ali, founder que não para de prospectar. Funciona por um tempo. Mas quando o dono tira o pé, o número cai. Quando o vendedor sai, o funil esvazia. Quando o mês fecha no vermelho, ninguém sabe exatamente por quê.
+      </p>
+      <div class="pull-quote">
+        <p>Isso não é falta de esforço. É falta de controle da operação.</p>
+      </div>
+      <p>
+        O Revenue Lab existe para mudar isso. Em 3 dias presenciais, você vai entender as alavancas do seu negócio, estruturar sua operação de receitas e sair com clareza do que implementar na semana seguinte.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     CIDADES
+═══════════════════════════════════════ -->
+<section id="cities">
+  <div class="cities-bg"></div>
+  <div class="grain"></div>
+  <div class="container">
+    <div class="cities-top">
+      <div>
+        <span class="label">Edições 2026</span>
+        <h2>Duas cidades.<br>Uma metodologia.</h2>
+      </div>
+      <p class="cities-sub">As datas e o local exato são informados para quem estiver na lista de espera.</p>
+    </div>
+
+    <div class="cities-grid">
+      <div class="city-card">
+        <span class="city-num">JF / MG</span>
+        <p class="city-name">Juiz de Fora</p>
+        <p class="city-state">Minas Gerais</p>
+        <img class="city-hept"
+             src="https://raw.githubusercontent.com/dealwise-marketing/email-mkt/refs/heads/main/Logotipo/i%CC%81cone%20linhas.svg"
+             alt="" aria-hidden="true"
+             width="190" height="190"
+             loading="lazy">
+      </div>
+      <div class="city-card">
+        <span class="city-num">SP / SP</span>
+        <p class="city-name">São Paulo</p>
+        <p class="city-state">São Paulo</p>
+        <img class="city-hept"
+             src="https://raw.githubusercontent.com/dealwise-marketing/email-mkt/refs/heads/main/Logotipo/i%CC%81cone%20linhas.svg"
+             alt="" aria-hidden="true"
+             width="190" height="190"
+             loading="lazy">
+      </div>
+    </div>
+
+    <div class="cities-cta">
+      <a class="btn" href="#form">Quero ser avisado primeiro</a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     FORMULÁRIO
+═══════════════════════════════════════ -->
+<section id="form">
+  <div class="container">
+    <div class="form-intro">
+      <span class="label">Lista de espera</span>
+      <h2>Demonstre interesse e receba tudo em primeira mão.</h2>
+      <p>
+        Nosso time entra em contato com os detalhes da edição mais próxima de você — datas, local e condições especiais para quem demonstrou interesse antes do lançamento oficial.
+      </p>
+      <div class="form-bullets">
+        <div class="form-bullet"><span>Você recebe as informações antes do lançamento público</span></div>
+        <div class="form-bullet"><span>Condições especiais para o <b>Lote 1</b></span></div>
+        <div class="form-bullet"><span>Sem compromisso ao preencher</span></div>
+      </div>
+    </div>
+    <div class="form-wrap">
+      <span class="form-wrap-label">Formulário de interesse</span>
+      <div role="main" id="lp-dealwise-formulario-revenue-lab-18265f3363dea0c00e6b"></div>
+      <script type="text/javascript" src="https://d335luupugsy2.cloudfront.net/js/rdstation-forms/stable/rdstation-forms.min.js" defer></script>
+      <script type="text/javascript">
+        window.addEventListener('DOMContentLoaded', function() {
+          new RDStationForms('lp-dealwise-formulario-revenue-lab-18265f3363dea0c00e6b', 'UA-163096591-1').createForm();
+        });
+      </script>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     SOBRE A DEALWISE
+═══════════════════════════════════════ -->
+<section id="about">
+  <div class="about-bg"></div>
+  <div class="grain" style="opacity:.15"></div>
+  <div class="container">
+
+    <div class="about-content">
+      <span class="label">Quem está por trás</span>
+
+      <img src="https://raw.githubusercontent.com/dealwise-marketing/email-mkt/refs/heads/main/logo-dealwise.svg"
+           alt="Dealwise"
+           class="about-brand-logo"
+           width="200" height="70"
+           loading="lazy"
+           onerror="this.style.display='none'">
+
+      <p>
+        A Dealwise é a primeira Revenue Builder do Brasil e da América Latina. Nasceu em Juiz de Fora em 2019, da fusão de duas empresas fundadas aqui mesmo: a Hackeando Processos, do Vítor Baesso, e a FaçaAgora!, do Gabriel Machado. A Dealwise como marca nasceu em 2025, mas o histórico de operação e resultado vem de 6 anos construindo o método do zero, sem investidor externo, sem sócio famoso, sem atalho.
+      </p>
+
+      <p class="about-highlight">
+        O que a Dealwise faz, em uma frase: constrói as operações de receita das empresas que atende. Não é consultoria, não é aceleradora, não é software isolado. É um ecossistema completo de tecnologia, serviços e inteligência artificial que entra junto com o cliente e passa a ser, na prática, a própria operação de receitas dele. A Dealwise não apenas orienta, ela opera junto.
+      </p>
+
+      <p>
+        E nosso método proprietário de operação de receitas tem nome: REVENUE. São 7 pilares que estruturam toda a operação de receitas de uma empresa. Cada pilar é interdependente. Quando todos funcionam juntos, o crescimento para de ser acidente e vira consequência.
+      </p>
+
+      <div class="revenue-method" aria-label="Método REVENUE">
+        <div class="method-pill"><span class="method-letter">R</span><span class="method-word">Resultado</span></div>
+        <div class="method-pill"><span class="method-letter">E</span><span class="method-word">Estratégia</span></div>
+        <div class="method-pill"><span class="method-letter">V</span><span class="method-word">Velocidade</span></div>
+        <div class="method-pill"><span class="method-letter">E</span><span class="method-word">Execução</span></div>
+        <div class="method-pill"><span class="method-letter">N</span><span class="method-word">Network</span></div>
+        <div class="method-pill"><span class="method-letter">U</span><span class="method-word">Usuário</span></div>
+        <div class="method-pill"><span class="method-letter">E</span><span class="method-word">Engenharia</span></div>
+      </div>
+    </div>
+
+    <div class="about-image">
+      <div class="about-image-glow"></div>
+      <img class="about-icon-spin"
+           src="https://raw.githubusercontent.com/dealwise-marketing/email-mkt/refs/heads/main/Logotipo/%5BREVENUE%20LAB%5D%20Logotipo%20Final%20icone.svg"
+           alt="Revenue Lab — ícone"
+           width="360" height="360"
+           loading="lazy"
+           onerror="this.style.display='none'">
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     FOOTER
+═══════════════════════════════════════ -->
+<footer>
+  <div class="container">
+    <div class="footer-top">
+      <img class="footer-logo footer-logo--desktop"
+           src="https://raw.githubusercontent.com/dealwise-marketing/email-mkt/refs/heads/main/Logotipo/Revenue%20Lab%20Export%20de%20vers%C3%B5es%20do%20logo%20e%20heptagono_Revenue%20Lab%20versao%20principal%20alinhada%20a%20esquerda%20para%20fundos%20escuros%20com%20assinatura%20by%20dealwise.svg"
+           alt="Revenue Lab by Dealwise"
+           width="280" height="52"
+           loading="lazy"
+           onerror="this.style.display='none'">
+      <img class="footer-logo footer-logo--mobile"
+           src="https://raw.githubusercontent.com/dealwise-marketing/email-mkt/refs/heads/main/Logotipo/Revenue%20Lab%20Export%20de%20vers%C3%B5es%20do%20logo%20e%20heptagono_Revenue%20Lab%20versao%20centralizada%20para%20fundos%20escuros%20com%20assinatura%20by%20dealwise.svg"
+           alt="Revenue Lab by Dealwise"
+           width="220" height="52"
+           loading="lazy"
+           onerror="this.style.display='none'">
+    </div>
+    <p class="footer-disclaimer">
+      Os números apresentados nesta página são resultados reais de clientes Dealwise e não configuram promessa ou garantia de resultado. Resultados individuais podem variar de acordo com o contexto, segmento e execução de cada empresa.
+    </p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
