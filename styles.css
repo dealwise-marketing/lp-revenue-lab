@@ -277,9 +277,8 @@ body {
   position: absolute;
   right: 6%;
   top: 22%;
-  bottom: 0;
-  width: auto;
-  max-width: 52%;
+  width: 52%;
+  height: auto;
   object-fit: contain;
   object-position: top right;
   z-index: 4;
