@@ -276,10 +276,10 @@ body {
 .hero-founders {
   position: absolute;
   right: 6%;
-  top: 13%;
+  top: 22%;
   bottom: 0;
   width: auto;
-  max-width: 44%;
+  max-width: 52%;
   object-fit: contain;
   object-position: top right;
   z-index: 4;
