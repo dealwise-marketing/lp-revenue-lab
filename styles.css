@@ -1,11 +1,11 @@
 /* Garante que texto aparece imediatamente com fonte fallback enquanto DM Sans carrega */
 @font-face {
   font-family: 'DM Sans';
-  font-display: swap;
+  font-display: optional;
 }
 @font-face {
   font-family: 'DM Mono';
-  font-display: swap;
+  font-display: optional;
 }
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
