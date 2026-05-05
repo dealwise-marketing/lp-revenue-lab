@@ -238,14 +238,7 @@ body {
     var(--dark);
 }
 
-#beams-canvas {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-  pointer-events: none;
-}
+/* canvas removido — substituído por gradiente CSS */
 
 .hero-hept-bg {
   position: absolute;
@@ -579,21 +572,15 @@ body {
 
 .context-glow {
   position: absolute;
-  left: 50%; top: 50%;
-  transform: translate(-50%, -50%);
-  width: 800px; height: 800px;
-  background: radial-gradient(circle, rgba(97,113,255,.05) 0%, transparent 65%);
+  inset: 0;
   pointer-events: none;
+  background:
+    radial-gradient(ellipse 60% 70% at 30% 50%, rgba(97,113,255,.09) 0%, transparent 65%),
+    radial-gradient(ellipse 40% 50% at 75% 30%, rgba(17,37,124,.15) 0%, transparent 60%),
+    radial-gradient(ellipse 30% 40% at 60% 80%, rgba(97,113,255,.06) 0%, transparent 55%);
 }
 
-#context-beams {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-  pointer-events: none;
-}
+/* canvas context removido — glow CSS abaixo */
 
 #context .container { position: relative; z-index: 2; }
 
